@@ -7,6 +7,7 @@ import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.externals import joblib
+import numpy as np
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
