@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.externals import joblib
 
-from numpy.distutils.command.build_ext import build_ext
+import numpy as np
 
 
 app = flask.Flask(__name__)
