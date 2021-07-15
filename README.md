@@ -5,8 +5,7 @@ This is a sample project which uses a ML Spam Classifier and actually sends inco
 **ML Classifier Model Used**\
 [Develop a NLP Model in Python & Deploy It with Flask, Step by Step](https://towardsdatascience.com/develop-a-nlp-model-in-python-deploy-it-with-flask-step-by-step-744f3bdd7776)
 
-**App Script Snippet**\
-[HOW TO CREATE A GMAIL FILTER WITH GOOGLE APPS SCRIPT](http://www.jessespevack.com/blog/2018/9/6/how-to-create-a-gmail-filter-with-google-apps-script)
+
 
 ## How to make it work?
 I have used the ML model specified above and hosted it on heroku to be used as an API.
@@ -17,7 +16,7 @@ if that's not the case just refresh the URL.
 
 
 ## API Docs
-[Link to API](https://spamflask.herokuapp.com/classify?msg=Enter%20Your%20Spam%20Checking%20Body%20Here)\
+[Link to API](https://spamclassi.herokuapp.com/classify?msg=Enter%20Your%20Spam%20Checking%20Body%20Here)\
 The API uses the /classify route to classify an input body as SPAM or NOT.
 To check a text for classification into spam or not use the msg params with value of whatever text which needs to be
 checked for SPAM.\
