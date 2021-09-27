@@ -1,4 +1,4 @@
-# SpamClassifierAppScript
+
 This is a sample project which uses a ML Spam Classifier and actually sends incoming emails to the Spam in real-time.
 
 ## Resources Used
@@ -16,7 +16,6 @@ if that's not the case just refresh the URL.
 
 
 ## API Docs
-[Link to API](https://spamclassi.herokuapp.com/classify?msg=Enter%20Your%20Spam%20Checking%20Body%20Here)\
 The API uses the /classify route to classify an input body as SPAM or NOT.
 To check a text for classification into spam or not use the msg params with value of whatever text which needs to be
 checked for SPAM.\
